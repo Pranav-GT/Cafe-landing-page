@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--linking font-awesome for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!--Linking Swiper CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--header/navbar-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">☕ Coffee</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!--Hero-section-->
+        <section class="hero-section">
+          <div class="section-content">
+            <div class="hero-details">
+                <h2 class="title">A CUP MADE JUST FOR YOU</h2>
+                <h3 class="subtitle">Whatever your day looks like, we've got your cup ready.</h3>
+                <p class="description">we are dedicated to serving every guest with quality coffee and genuine hospitality — because every visit deserves to feel like it was made just for you.</p>
+                
+                <div class="buttons">
+                    <a href="#" class="button order-now">Order-now</a>
+
+                    <a href="#" class="button contact-us">Contact-us</a>
+                </div>    
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="images/hero__image.jpg" alt="hero" class="hero-image">
+            </div>
+          </div>
+        </section>
+
+        <!--About-section-->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-img-wrapper">
+                    <img src="images/about__image.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">Founded on a love for great coffee and warm spaces, this place has always been about more than what's in the cup. We are here to offer you a place where quality meets comfort, every single day.</p>
+                    <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Menu-section-->
+        <section class="menu-section" id="menu">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/hot.png" alt="Hot Beverages" class="menu-image">
+                        <h3 class="name">Hot Beverages</h3>
+                        <p class="text">Freshly brewed, crafted with care, served just right.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/Cold.png" alt="Cold Beverages" class="menu-image">
+                        <h3 class="name">Cold Beverages</h3>
+                        <p class="text">Rich, smooth, and perfectly chilled to order.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/RE.png" alt="Refreshment" class="menu-image">
+                        <h3 class="name">Refreshment</h3>
+                        <p class="text">Light, natural, and made to revive your day.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/combos.png" alt="Special Combo" class="menu-image">
+                        <h3 class="name">Special Combo</h3>
+                        <p class="text">Your favourite pairings, thoughtfully put together.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/cake.png" alt="Desserts" class="menu-image">
+                        <h3 class="name">Desserts</h3>
+                        <p class="text">The perfect sweet finish to any visit.</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/B&F.png" alt="Burger & French Fries" class="menu-image">
+                        <h3 class="name">Burger & French Fries</h3>
+                        <p class="text">Fresh, honest bites made with the same care as our coffee.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Testimonials-section-->
+        <section class="testimonials-section" id="testimonials">
+            <h3 class="section-title">Testimonials</h3>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+    <li class="testimonial swiper-slide">
+        <img src="images/user-A.png" alt="User" class="user-image">
+        <h3 class="name">Emma Clarke</h3>
+        <i class="feedback">"The dark roast is absolutely divine. Rich, smooth, and full-bodied. My morning ritual!"</i>
+    </li>
+    <li class="testimonial swiper-slide">
+        <img src="images/user-B.png" alt="User" class="user-image">
+        <h3 class="name">Daniel Carter</h3>
+        <i class="feedback">"Incredible espresso! Velvety crema and deep flavor. Delivered faster than expected!"</i>
+    </li>
+    <li class="testimonial swiper-slide">
+        <img src="images/user-C.png" alt="User" class="user-image">
+        <h3 class="name">Nathan Reed</h3>
+        <i class="feedback">"The hazelnut blend is outstanding. Beautifully fresh and fragrant. Lightning-fast delivery!"</i>
+    </li>
+    <li class="testimonial swiper-slide">
+        <img src="images/user-D.png" alt="User" class="user-image">
+        <h3 class="name">Olivia Bennett</h3>
+        <i class="feedback">"Top-notch coffee! Wonderfully fresh beans and super speedy shipping. Won't buy elsewhere!"</i>
+    </li>
+    <li class="testimonial swiper-slide">
+        <img src="images/user-E.png" alt="User" class="user-image">
+        <h3 class="name">Ryan Mitchell</h3>
+        <i class="feedback">"Their cold brew blend is a game changer! Mellow, rich, and refreshing. Arrived right on time!"</i>
+    </li>
+</ul>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Gallery-section-->
+        <section class="gallery-section" id="gallery">
+            <h3 class="section-title">Gallery</h3>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="images/gallery-1.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-2.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-3.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-4.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-5.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-6.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Comtact-section-->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>Shakti Krupa, Agiary Road, Thane H.o.</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>info@Cafewebsite.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(+91) 99887 76655</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Sunday : Closed</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="your name" class="form-input" required>
+                    <input type="email" placeholder="Your email" class="form-input" required>
+                    <textarea laceholder=" Your message" class="form-input" required></textarea>
+                    <button class="submit-button">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <!--Footer section-->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© 2026 Coffee Cafe </p>
+
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="separator">•</span>
+                    <a href="#" class="policy-link">Refund policy</a>
+                </p>
+            </div>
+        </footer>
+    </main>
+
+    <!--Linking Swiper script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!--Linking scrollreveal script-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--Linking custom script-->
+    <script src="script.js"></script>
+</body>
+</html>
