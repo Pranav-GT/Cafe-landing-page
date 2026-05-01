@@ -1,0 +1,1 @@
+A modern, warm, and fully responsive coffee cafe landing page built with pure HTML, CSS, and JavaScript. Designed to welcome visitors, showcase the menu, and make it easy to get in touch — all without a single framework.
